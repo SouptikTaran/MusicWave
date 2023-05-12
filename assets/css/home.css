@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.search-bar{
+    width: 100vw;
+    height: 8vh;
+    background-color: white;
+}
+.welcome-bar{
+    width: 100vw;
+    height: 14vh;
+    background-color: black;
+}
+.main-div{
+    display: flex;
+}
+.left-nav-bar{
+    height: 66vh;
+    width: 18vw;
+    background-color: blue;
+}
+.main-center{
+    height: 66vh;
+    width: 64vw;
+    background-color: white;
+}
+.right-menu{
+    height: 66vh;
+    width: 18vw;
+    background-color: blue;
+}
+
+.music-player{
+    width: 100vw;
+    height: 12vh;
+    position: fixed;
+    background-color: red;
+}

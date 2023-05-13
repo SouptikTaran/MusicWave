@@ -1,28 +1,112 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 body{
     margin: 0;
     padding: 0;
 }
 .search-bar{
     width: 100vw;
-    height: 8vh;
-    background-color: white;
+    height: 80px;
+    background-color: #ECF3F9; 
+    display: flex;
+    vertical-align:middle;
+    flex-direction: row;
+
 }
+.top-releases {
+    /* border: 2px solid black; */
+    width: 10vw;
+    text-align: center;
+    justify-content: center;
+    margin: auto 0;
+    margin-left: 3vw;
+    font-size: 20px;
+    font-family: 'Lora', serif;
+    font-weight: 500;
+}
+.list-icon{
+    margin: auto 0;
+}
+.list-icon img{
+    width: 2vw;
+    margin: auto 0 ;
+    margin-left: 2vw;
+    justify-content: center;
+    align-items: center;
+    /*border: 2px solid black;  */
+}
+.sqr-ico{
+    margin: auto 0;
+}
+.sqr-ico img{
+    width: 2vw;
+    margin: auto 0vw;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-right: 2vw;
+    margin-left: 1vw;
+}
+.search-song {
+    border: 0px;
+    width: 807.5px;
+    height: 4vh;
+    border-radius: 50px;
+    margin: auto 0;
+    padding: 0px 16px 0px 16px;
+    display: flex;
+    vertical-align: middle;
+    background: #fff;
+
+    
+
+}
+
+#search-ico{
+    height: 30px;
+    width: 30px;
+    opacity: 0.6px;
+    margin: auto 0;
+    padding: auto 0;  
+}
+
+.search-song input:focus{
+    border-style: none;
+    outline: none;
+}
+
+.search-song input{
+    border: none;
+    margin: auto 0;
+    outline: none; 
+    width: 700.5px;
+    border-radius: 50px;
+    height: 4vh;
+    font-size: 20px;
+    font-family: 'Lora', serif;
+}
+
+
+
+/*---------------------------------------------------------*/
 .welcome-bar{
     width: auto;
     height: 14vh;
     background-color: black;
     color: white;
     padding-left: 25px;
+    display: flex;
+    vertical-align: middle;
+}
+.welcome-bar-text {
+    margin: auto 0;
 }
 #greeting-div{
     font-family: 'Inter', sans-serif;
     font-weight: 800;
-    padding-top: 25px;
     font-size: 30px;
 }
 #welcome-text{
-    padding-bottom: 25px;
+    /* padding-bottom: 25px; */
     font-family: 'Inter', sans-serif;
 }
 .main-div{

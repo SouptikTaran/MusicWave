@@ -172,15 +172,38 @@ body{
 }
 /*------------------------------------Main-Center Bar section--------------------------------*/
 .main-center{
-    height: 66vh;
-    width: 64vw;
+    height: 56vh;
+    width: 58vw;
     background-color: white;
+    padding: 40px;
+    /* display: flex; */
 }
+.row-music-set{
+    display: flex;
+}
+.music-logo{
+    width: 150px;
+}
+.music-play:hover{
+    opacity: 1;
+    /* color: white;     */
+}
+.music-set{
+    margin: 15px;
+}
+.music-name{
+    font-size: medium;
+    font-weight: 800;
+}
+.music-artist{
+    font-size: small;
+}
+/*--------------------------------Main Right Bar Section------------------------*/
 .right-menu{
     height: 66vh;
     width: 18vw;
     background-color:#ECF3F9;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 .music-player{
@@ -190,7 +213,7 @@ body{
     background-color: red;
 }
 
-/*--------------------------------Main Right Bar Section------------------------*/
+
 
 .top-picks-title{
     font-size: 18px;
@@ -209,15 +232,21 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 10px;   
     cursor: pointer;
 }
 
+.music-list-div{
+    overflow: scroll;
+    height: 58vh;
+    padding: 10px;
+}
+.music-list-div::-webkit-scrollbar {
+    display: none;
+  }
 .title-img{
     float: left;
-    margin-top: 10px;
-
-    
+    margin-top: 10px;    
 }
 
  .music-list-song{

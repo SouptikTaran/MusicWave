@@ -12,22 +12,16 @@
 <body>
     <div class="search-bar">
         <div class="top-releases">
-            Top Releases
+            MusicWave
         </div>
-        <div class="list-icon">
-            <img src="/assets/images/format_list_bulleted_FILL0_wght400_GRAD0_opsz48.png" alt="">
-        </div>
-        <div class="sqr-ico">
-            <img src="/assets/images/view_cozy_FILL0_wght400_GRAD0_opsz48.png" alt="">
-        </div>
+        <button class="btn-icon"><img src="/assets/images/format_list_bulleted_FILL0_wght400_GRAD0_opsz48.png"
+                alt=""></button>
+        <button class="btn-icon"><img src="/assets/images/view_cozy_FILL0_wght400_GRAD0_opsz48.png" alt=""></button>
+        <div class="vertical-line"></div>
         <div class="search-song">
-            <img src="/assets/images/search_FILL0_wght400_GRAD0_opsz48.png" alt="" id="search-ico">
-            <input type="text" placeholder="Search your favorite music">
+            <img src="/assets/images/search_FILL0_wght400_GRAD0_opsz48.png" alt="" id="search-icon">
+            <input id="search-song-input" type="text" placeholder="Search your favorite music" onclick="clearvalue(this)">
         </div>
-
-
-    </div>
-
     </div>
     <div class="welcome-bar">
         <div class="welcome-bar-text">
@@ -37,6 +31,24 @@
     </div>
     <div class="main-div">
         <div class="left-nav-bar">
+            <div id="left-list-heading">Browse songs</div>
+            <div class="horizontal-line"></div>
+            <button class="left-list-btn">Only For You</button>
+            <button class="left-list-btn">Top Releases</button>
+            <button class="left-list-btn">Pop</button>
+            <button class="left-list-btn">Hip-Hop</button>
+            <button class="left-list-btn">Party</button>
+            <button class="left-list-btn">Indie</button>
+            <button class="left-list-btn">Summar</button>
+            <button class="left-list-btn">Romance</button>
+            <button class="left-list-btn">Workout</button>
+            <div id="left-list-heading">My Playlists</div>
+            <div class="horizontal-line"></div>
+            <button class="left-list-btn">Romance</button>
+            <button class="left-list-btn">Workout</button>
+            <button id ="1" class="left-list-btn">Chill</button>
+            <button id ="2" class="left-list-btn">Party</button>
+            <button id="see-all-btn" class="see-all-btn" onclick="showall(this)">See all</button>
 
         </div>
         <div class="main-center">

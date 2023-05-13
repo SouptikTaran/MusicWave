@@ -29,3 +29,29 @@ function clearvalue(value){
 //     arrlist.style.display = "contents";
 //   };
 // }
+let volumebar = document.getElementById('music-player-volumebar');
+console.log(volumebar.value);
+let audio = document.getElementById('loadaudio');
+var controlBtn = document.getElementById('play-pause');
+var flag = 0;
+function playPause() {
+  if (flag == 0) {
+      // track.play();
+      controlBtn.className = "pause";
+      audio.play();
+      flag = 1;
+  } else { 
+      // track.pause();
+      controlBtn.className = "play";
+      audio.pause();
+      flag = 0;
+  }
+}
+controlBtn.addEventListener("click", playPause);
+track.addEventListener("ended", function() {
+  controlBtn.className = "play";
+});
+audio.volume =  volumebar.value;
+function changeVolume(){
+  audio.volume =  volumebar.value;
+}

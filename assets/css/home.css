@@ -280,3 +280,51 @@ body{
     transform: scale(1.2);
     z-index: 1;
 } */
+
+.music-player{
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    background-color: #D0D5DD;
+    display: flex;
+    vertical-align: middle;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.music-player-icon{
+    width: 50px;
+    height: 50px;
+    margin: auto 10px;
+}
+.song-name{
+    margin: auto 10px;
+}
+.music-player-volume{
+    width: 25px;
+    height: 25px;
+    margin: auto 0 auto 0;
+}
+.music-player-center{
+    margin: auto;
+}
+.play{
+    background-image: url(../images/play.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+}
+.pause{
+    background-image: url(../images/pause.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+}
+
+#music-player-volumebar{
+    margin-right: 30px;
+}
+
+
+

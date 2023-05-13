@@ -48,9 +48,9 @@ function playPause() {
   }
 }
 controlBtn.addEventListener("click", playPause);
-track.addEventListener("ended", function() {
-  controlBtn.className = "play";
-});
+// track.addEventListener("ended", function() {
+//   controlBtn.className = "play";
+// });
 audio.volume =  volumebar.value;
 function changeVolume(){
   audio.volume =  volumebar.value;

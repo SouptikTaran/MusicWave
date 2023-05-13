@@ -176,11 +176,15 @@ body{
     width: 58vw;
     background-color: white;
     padding: 40px;
+    overflow: scroll;
     /* display: flex; */
 }
 .row-music-set{
     display: flex;
 }
+.main-center::-webkit-scrollbar {
+    display: none;
+  }
 .music-logo{
     width: 150px;
 }
